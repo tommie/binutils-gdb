@@ -1129,7 +1129,7 @@ case "${target}" in
   mips*-*-*)
     noconfigdirs="$noconfigdirs gprof"
     ;;
-  sh-*-* | sh64-*-*)
+  sh*-*-* | sh64-*-*)
     case "${target}" in
       sh*-*-elf)
          ;;
