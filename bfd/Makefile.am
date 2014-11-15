@@ -67,7 +67,7 @@ BFD_H = bfd.h
 # debugger).
 BFD32_LIBS = \
 	archive.lo archures.lo bfd.lo bfdio.lo bfdwin.lo \
-	cache.lo coffgen.lo corefile.lo \
+	cache.lo coffgen.lo corefile.lo espimage.lo \
 	format.lo init.lo libbfd.lo opncls.lo reloc.lo \
 	section.lo syms.lo targets.lo hash.lo linker.lo \
 	srec.lo binary.lo tekhex.lo ihex.lo stabs.lo stab-syms.lo \
@@ -77,7 +77,7 @@ BFD64_LIBS = archive64.lo
 
 BFD32_LIBS_CFILES = \
 	archive.c archures.c bfd.c bfdio.c bfdwin.c \
-	cache.c coffgen.c corefile.c \
+	cache.c coffgen.c corefile.c espimage.c \
 	format.c init.c libbfd.c opncls.c reloc.c \
 	section.c syms.c targets.c hash.c linker.c \
 	srec.c binary.c tekhex.c ihex.c stabs.c stab-syms.c \

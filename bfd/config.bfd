@@ -1652,7 +1652,7 @@ case "${targ}" in
 
   xtensa*-*-*)
     targ_defvec=bfd_elf32_xtensa_le_vec
-    targ_selvecs=bfd_elf32_xtensa_be_vec
+    targ_selvecs="bfd_elf32_xtensa_be_vec espimage_vec"
     ;;
  xc16x-*-elf)
     targ_defvec=bfd_elf32_xc16x_vec

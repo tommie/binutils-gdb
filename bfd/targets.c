@@ -788,6 +788,7 @@ extern const bfd_target ecoff_big_vec;
 extern const bfd_target ecoff_biglittle_vec;
 extern const bfd_target ecoff_little_vec;
 extern const bfd_target ecoffalpha_little_vec;
+extern const bfd_target espimage_vec;
 extern const bfd_target go32coff_vec;
 extern const bfd_target go32stubbedcoff_vec;
 extern const bfd_target h8300coff_vec;
@@ -1184,6 +1185,7 @@ static const bfd_target * const _bfd_target_vector[] =
 #ifdef BFD64
 	&ecoffalpha_little_vec,
 #endif
+	&espimage_vec,
 	&go32coff_vec,
 	&go32stubbedcoff_vec,
 	&h8300coff_vec,

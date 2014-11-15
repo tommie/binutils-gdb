@@ -914,6 +914,7 @@ do
     ecoff_biglittle_vec)	tb="$tb coff-mips.lo ecoff.lo ecofflink.lo" ;;
     ecoff_little_vec)		tb="$tb coff-mips.lo ecoff.lo ecofflink.lo" ;;
     ecoffalpha_little_vec)	tb="$tb coff-alpha.lo ecoff.lo ecofflink.lo"; target_size=64 ;;
+    espimage_vec)		tb="$tb espimage.lo" ;;
     go32coff_vec)		tb="$tb coff-go32.lo cofflink.lo" ;;
     go32stubbedcoff_vec)	tb="$tb coff-stgo32.lo cofflink.lo" ;;
     h8300coff_vec)		tb="$tb coff-h8300.lo reloc16.lo" ;;
